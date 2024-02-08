@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'inter';
+    src: url('./fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'inter';
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #60E1CB; 
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+ width: 60px;
+}
+
+.logo p {
+    margin: 20px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.buscador {
+    flex-grow: 1;
+    margin-right: 10px;
+
+}
+
+.buscador input {
+    width: 73%;
+    padding: 10px;
+    outline: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: none;
+}
+
+.buscador button {
+    cursor: pointer;
+    width: 20%;
+    height: 100%;
+    background: #377DFF;
+    color: white;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.buscador button:hover {
+    background: #2e6ad9;
+}
+
+li {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    background: #54c3b1;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    height: 70%;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.user:hover {
+    background: #efefef;
+}
+
+i {
+    margin: 0 20px 0 10px;
+    font-size: 40px;
+}
+
+.section
+{
+    width: 100%;
+    height: 50vh;
+    margin: 40px 0;
+}
+.section p
+{
+    margin: 20px 0;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    width: 100%;
+}
+.cards
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+.card
+{
+    cursor: pointer;
+    margin: 0 3%;
+    width: 15%;
+    height: 80%;
+    background: white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 10px 40px 0 #a3a3a3;
+    transition: 0.2s;
+}
+.card:hover
+{
+    height: 90%;
+}
+.card img
+{
+    z-index: 5;
+    margin: 10px 0 0 0;
+    width: 90%;
+    height: 70%;
+}
+.card .songTitle
+{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+}
+.card .artist
+{
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #afafaf;
+}
+.section .leftS
+{
+    margin: 0 15%;
+    width: 70%;
+    text-align: left;
+}
+footer
+{
+    width: 100%;
+    height: 35vh;
+    background: linear-gradient(to right, #a8cae1, #daaca7);
+    margin: 0;
+}

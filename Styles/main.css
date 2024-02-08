@@ -1,0 +1,198 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.encab_regis{
+    background-color: rgba(96, 225, 203, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .encab_regis .marca{
+        margin-left: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+    }
+
+    .encab_regis .marca img{
+        width: 70px;
+        margin-right: 20px;
+    }
+
+    .encab_regis .marca h1{
+        font-size: 1.5rem;
+    }
+
+    .encab_regis .opcion_nav{
+        width: 400px;
+        margin-right: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .encab_regis .opcion_nav ul{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        width: 40%;
+        font-size: 1.2rem;
+        list-style: none;
+    }
+
+    .encab_regis .opcion_nav li{
+        color: black;
+        text-decoration: none;
+        font-size: 1.3rem;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .encab_regis .opcion_nav li:hover{
+        background-color: darkgrey;
+    }
+
+    .encab_regis .opcion_nav a{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+
+    .encab_regis .icon_perfil{
+        background-color: aliceblue;
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .encab_regis .icon_perfil img{
+        width: 40px;
+        border-right: 2px solid black;
+    }
+
+    .encab_regis .icon_perfil a{
+        font-size: 1.2rem;
+        color: black;
+        text-align: center;
+    }
+    .encab_regis .icon_perfil:hover{
+        background-color: darkgrey;
+    }
+
+/* estilo formulario */
+
+.positions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 541px;
+    background: linear-gradient(to right, #a8cae1, #daaca7);
+}
+
+.conteiner{
+    background-color: rgba(255, 242, 216, 1);
+    width: 430px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+.formCont {
+    width: 90%;
+    text-align: center;
+    
+}
+
+    .formCont form{
+        font-size: 1.2rem;
+        height: 150px;
+        text-align: justify;
+        margin-left: 5%;
+    }
+
+    .formCont input{
+        border-bottom: 1px solid black;
+        border: none;
+        border-radius: 5px;
+        width: 90%;
+        height: 30px;
+        font-size: 1.2rem;
+        outline: none;
+        box-shadow: 0px 1px 1px 0px;
+    }
+
+    .formCont input:hover{
+        background-color: darkgrey;
+    }
+
+    .formCont .pass{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+    }
+
+    .formCont .pass a{
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+    }
+
+    .formCont .buttonAcc{
+        background-color: rgba(55, 125, 255, 1);
+        width: 90%;
+        height: 35px;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .formCont .buttonAcc:hover{
+        background-color: darkgrey;
+    }
+
+    .formCont .externa{
+        width: 87%;
+        margin-left: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(229, 241, 255, 1);
+        border: none;
+        border-radius: 5px;
+        padding: 7px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .formCont .externa img {
+        width: 25px;
+        margin-right: 10px;
+    }
+
+    .formCont .externa h4{
+        margin: 5px;
+    }
+
+    .formCont .externa:hover{
+        background-color: darkgrey;
+    }
+
+    .formCont p{
+        font-size: 1.2rem;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 25px;
+    }

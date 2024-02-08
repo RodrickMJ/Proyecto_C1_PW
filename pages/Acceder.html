@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/musica 1.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Styles/main.css">
+    <title>Untitled Unmastered</title>
+</head>
+<body>
+    <header class="encab_regis">
+        <div class="marca">
+            <img src="../images/musica 1.png" alt="logo">
+            <h1>Untitled Unmastered</h1>
+        </div>
+        <div class="opcion_nav">
+            <ul>
+                <li><a href="../Album.html">Inicio</a></li>
+                <li><a href="#">Biblioteca</a></li>
+            </ul>
+            <div class="icon_perfil">
+                <img src="../images/image 45.png" alt="perfil">
+                <a href="#">Nombre de Usuario</a>
+            </div>
+        </div>
+    </header>
+    <div class="positions">
+        <div class="conteiner">
+            <div class="formCont">
+                <h1>Inicio De Sesion</h1>
+                <p>Ingresa para poder escuchar los trenig de la musica y estar al dia.</p>
+                <form action="../Album.html" id="loginForm">
+                    <label for="Email_User">Usuario o E-mail</label><br>
+                    <input type="text" name="usuarioEmail" id="Email_User"><br><br>
+                    
+                    <div class="pass">
+                        <label for="Password">Contraseña</label>
+                        <a href="#" id="togglePassword">Mostrar Contraseña</a>
+                    </div>
+                    
+                    <input type="password" name="contrasena" id="Password" data-password-visible="false"><br><br>
+                             
+                    <button type="submit" class="buttonAcc">Acceder</button>
+                </form>
+                <br><br>
+                <h4>O</h4>
+                <button type="submit" class="externa"><img src="../images/Google.png" alt="Google"><h4>Iniciar sesion con Google</h4></button>     
+            </div>
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>
