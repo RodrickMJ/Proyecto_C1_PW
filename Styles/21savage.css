@@ -112,99 +112,104 @@ i {
     font-size: 40px;
 }
 
-/* estilo section */
-
-.sectionPos{
+.sectionPos {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section{
+.section {
     background: linear-gradient(to right, #a8cae1, #daaca7);
-    width: 1200px;
+    max-width: 1000px;
+    width: 100%;
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section .content{
-    width: 1150px;
+.section .content {
+    max-width: 990px;
+    width: 100%;
     height: 370px;
     display: flex;
     justify-content: space-between;
 }
 
-.content .infoCan{
-    width: 700px;
+.content .infoCan {
+    max-width: 700px;
+    width: 100%;
     height: 370px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.infoCan .infoCanti{
+.infoCan .infoCanti {
     display: flex;
+    flex-wrap: wrap; 
     justify-content: space-between;
-    
 }
 
-.infoCan .posrep audio{
-    width: 700px;
+.infoCan .posrep audio {
+    width: 100%;
 }
 
-.content .imgcd{
-    width: 400px;
+.content .imgcd {
+    max-width: 300px;
+    width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.content .imgcd img{
-    width: 300px;
+.content .imgcd img {
+    max-width: 100%;
+    height: auto;
 }
 
-.content .imgcd h4{
+.content .imgcd h4 {
     margin: 0;
     margin-top: 10px;
     font-size: 1.3rem;
 }
 
-.infoCan .cd h4{
+.infoCan .cd h4 {
     background-color: darkgrey;
     border-radius: 5px;
     padding: 5px;
 }
 
-.infoCanti .dc h4{
+.infoCanti .dc h4 {
     font-size: 1.8rem;
     padding: 0;
     margin: 0;
 }
 
-.infoCanti .dc p{
-    color:#333333;
+.infoCanti .dc p {
+    color: #333333;
     font-size: 1.4rem;
     padding: 0;
     margin: 0;
     margin-top: 7px;
 }
 
-.infoCanti .dc{
-    width: 550px;
+.infoCanti .dc {
+    max-width: 550px;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap; 
 }
 
-.infoCanti .dc button{
+.infoCanti .dc button {
     border: none;
-    margin-right: 40px;
+    margin-right: 20px; 
     width: 100px;
     border-radius: 100%;
     font-size: 1.4rem;
 }
 
-.infoCanti .dc button:hover{
+.infoCanti .dc button:hover {
     background-color: #daaca7;
 }
